@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        section{
+            height: 100vh;
+        }
+     #block1{
+        background-color: rgb(227, 207, 253)
+     }
+     .content{
+        margin-left: 700px;
+        margin-top: -300px;
+        width: 600px;
+       
+     }
+     .content h1{
+        color: whitesmoke;
+        font-weight: bolder;
+     }
+     #b1{
+        animation-name: fimg;
+        animation-duration: 3s;
+     }
+     .content p{
+        color: azure;
+     }
+     .content h5{
+        border: 1px solid rgb(208, 206, 206);
+        border-radius: 5px;
+        width: 100px;
+        background-color: cornsilk;
+       
+     }
+     #block2 h1{
+        text-align: center;
+        text-decoration: underline  rgba(130,84,191,1);
+        
+     }
+     #block2{
+        background-color:rgb(227, 207, 253);
+     }
+     #block3{
+        background-color:rgb(227, 207, 253);
+     }
+     #block3 h1{
+        text-align: center;
+        text-decoration: underline  rgba(130,84,191,1);
+        
+     }
+     #block3 img{
+        float: right;
+        margin-top: 50px;
+        margin-right: 100px;
+        transform: skew(-.312rad);
+     }
+   .content1{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 20px;
+
+   }
+   @keyframes fimg {
+    from{
+        opacity: 0;
+        transform: translateX(70%);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0);
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="bars" id="menu">
+        <nav class="nav" style="margin-left: 500px; font-size: 20px;">
+            <a href="#" class="nav-item nav-link text-dark">Home</a>
+            <a href="#" class="nav-item nav-link text-dark">Class Time</a>
+            <a href="#" class="nav-item nav-link text-dark">Topics</a>
+            <a href="#" class="nav-item nav-link text-dark">Contact</a>
+            <a href="#" class="nav-item nav-link  text-dark">About Us</a>
+
+        </nav>
+    </div>
+    <section id="block1">
+        <img src="imag/back-removebg-preview.png" style="width: 700px; height: 550px; transform: skew(.312rad);">
+    <div class="content" id="b1">
+        <h1 class="text-dark">Start Learning</h1>
+        <p class="text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci minima perferendis repellendus ex eaque inventore, sapiente repellat nostrum officia, placeat, numquam doloremque recusandae commodi quia aliquam. Fugit dolor quasi nisi!</p>
+        <h5>Learn now</h5>
+    </div>
+       
+     </section>
+     <section  id="block2">
+        <div class="container">
+            <h1>SYLLABUS</h1>
+        <div class="row"style="margin-top: 50px;">
+       <div class="col-md-4">
+        <div class="card">
+            <img src="imag/mobile-app-development.png">
+            <div class="card-body text-center">
+                <h5 class="card-title">APP DEVELOPMENT</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique natus, dolorum officia iure nostrum beatae perspiciatis sed quae, voluptatibus unde facere. Sequi laboriosam beatae doloribus exercitationem. Pariatur non inventore aliquam.</p>
+                <a href="#" class="btn btn-primary">Join</a>
+            </div>
+        </div>
+       </div>
+       <div class="col-md-4">
+        <div class="card">
+            <img src="imag/web-programming-languages.webp" style="height: 245px;">
+            <div class="card-body text-center">
+                <h5 class="card-title">WEB DEVELOPMENT</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique natus, dolorum officia iure nostrum beatae perspiciatis sed quae, voluptatibus unde facere. Sequi laboriosam beatae doloribus exercitationem. Pariatur non inventore aliquam.</p>
+                <a href="#" class="btn btn-primary">Join</a>
+
+            </div>
+        </div>
+       </div>
+       <div class="col-md-4">
+        <div class="card">
+            <img src="imag/program.webp" style="height: 245px;">
+            <div class="card-body text-center">
+                <h5 class="card-title">JAVA PROGRAMMING</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique natus, dolorum officia iure nostrum beatae perspiciatis sed quae, voluptatibus unde facere. Sequi laboriosam beatae doloribus exercitationem. Pariatur non inventore aliquam.</p>
+                <a href="#" class="btn btn-primary">Join</a>
+
+            </div>
+        </div>
+       </div>
+    </div>
+    </div>
+     </section>
+     <section id="block3">
+        <h1>About Us</h1>
+        <img src="imag/business-people-teamwork_27170-2.avif">
+        <div class="content1">
+            <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia iure voluptatem nulla maiores, quis expedita ab, pariatur sequi quo id quos suscipit aliquam incidunt odit nihil illo, delectus quod placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, natus iusto quia harum, quod est eligendi vero facere magni nobis officiis inventore quisquam laborum labore consectetur eius hic, doloribus aperiam!</p>
+        </div>
+     </section>
+
+    <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</body>
+</html>
